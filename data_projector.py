@@ -172,6 +172,8 @@ class DataProjector:
                                showline=True,
                                showgrid=False,
                                showticklabels=False)),
+                # https://plotly.com/python/figure-labels/
+                font_family='PT Sans',
                 paper_bgcolor='rgba(0,0,0,0)',
                 plot_bgcolor='rgba(0,0,0,0)')
 
